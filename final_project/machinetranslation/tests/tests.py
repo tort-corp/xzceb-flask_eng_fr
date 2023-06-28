@@ -4,12 +4,7 @@ from machinetranslation.translator import english_to_french, french_to_english
 class TestTranslator(unittest.TestCase):
     """Test cases for translating"""
     def test1(self):
-        self.assertEqua
-        
-        r
-        asdf
-        
-        l(english_to_french("hello"), "bonjour")
+        self.assertEqua(english_to_french("hello"), "bonjour")
 
     def test2(self):
         self.assertEqual(french_to_english("bonjour"), "hello")
